@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Challenge 3 | Age calculator app</title>
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900;9..40,1000&family=Epilogue:wght@500;700&family=Gloria+Hallelujah&family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&family=Lexend+Deca:wght@600;700&family=Outfit:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,800&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,800&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <!-- css -->
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="box box1">
+      <div class="field">
+        <label for="day">Day</label>
+        <input type="number" placeholder="DD" id="day" />
+        <p class="error-msg"></p>
+      </div>
+      <div class="field">
+        <label for="month">Month</label>
+        <input type="number" placeholder="MM" id="month" />
+        <p class="error-msg"></p>
+      </div>
+      <div class="field">
+        <label for="year">Year</label>
+        <input type="number" placeholder="YYYY" id="year" />
+        <p class="error-msg"></p>
+      </div>
+    </div>
+    <div class="box box2">
+      <button class="submit-btn">
+        <img src="./assets/images/icon-arrow.svg" alt="icon" />
+      </button>
+    </div>
+    <div class="box box3">
+      <h1>
+        <span class="output">- -</span> years
+      </h1>
+      <h1>
+        <span class="output">- -</span> months
+      </h1>
+      <h1>
+        <span class="output">- -</span> days
+      </h1>
+    </div>
+  </div>
+  <!-- script -->
+  <script src="./js/app.js"></script>
+</body>
+</html>
